@@ -19,4 +19,4 @@ with open(inputfname, 'r') as inputFile:
                 
 with open(outputfname, 'w') as outputFile:
     for key in list(sorted(d)):
-        outputFile.write('%s : %s\n' % (key, d[key]))
+        outputFile.write('%s: %s\n' % (key, d[key]))
