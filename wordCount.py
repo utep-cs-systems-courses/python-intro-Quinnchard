@@ -10,7 +10,7 @@ with open(inputfname, 'r') as inputFile:
         line = line.strip()
         line = line.lower()
         line = line.translate(line.maketrans("", "", string.punctuation))
-        words = line.split(" ")
+        words = line.split()
         for word in words:
             if word in d:
                 d[word] = d[word] + 1 

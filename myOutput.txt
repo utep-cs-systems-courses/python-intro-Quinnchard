@@ -1,4 +1,3 @@
- : 31
 a : 16
 abdicated : 1
 abolish : 1
