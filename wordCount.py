@@ -18,6 +18,5 @@ with open(inputfname, 'r') as inputFile:
                 d[word] = 1 
                 
 with open(outputfname, 'w') as outputFile:
-    for key in list(d.keys()):
-        
-        outputFile.write('%s:%s\n' % (key, d[key]))
+    for key in list(sorted(d)):
+        outputFile.write('%s : %s\n' % (key, d[key]))
