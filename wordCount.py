@@ -19,4 +19,5 @@ with open(inputfname, 'r') as inputFile:
                 
 with open(outputfname, 'w') as outputFile:
     for key in list(d.keys()):
-        outputFile.write('%s:%s\n' % (key, ":", d[key]))
+        
+        outputFile.write('%s:%s\n' % (key, d[key]))
