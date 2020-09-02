@@ -1,4 +1,4 @@
-#Lab O Python Intro
+#Lab 0 Python Intro
 
 In this lab, we were tasked to get a basic understanding of python in order to create a program that would: 
 * Take in a .txt file filled with strings
